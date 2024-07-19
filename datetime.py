@@ -27,29 +27,54 @@
 #     print(x,y,"both x and y equal")
 
 
+#
+# day=int(input("enter no. for day"))
+#
+# if day==1:
+#     print("Sunday")
+#
+# elif day==2:
+#     print("Monday")
+#
+# elif day==3:
+#     print("Tuesday")
+#
+# elif day==4:
+#     print("Wednesday")
+#
+# elif day==5:
+#     print("Thursday")
+#
+# elif day==6:
+#     print("Friday")
+#
+# elif day==7:
+#     print("Saturday")
+#
+# else:
+#     print("Wrong day")
 
-day=int(input("enter no. for day"))
 
-if day==1:
-    print("Sunday")
+m=int(input("enter no.:"))
+n=int(input("enter no.:"))
 
-elif day==2:
-    print("Monday")
+# p=100
+# k=5
+h=int(input("enter choice no."))
+if h==1:
+    print("Plus=", m+n)
 
-elif day==3:
-    print("Tuesday")
+elif h==2:
+    print("substraction=",m-n)
 
-elif day==4:
-    print("Wednesday")
+elif h==3:
+    print("Divide=",m/n)
 
-elif day==5:
-    print("Thursday")
+elif h==4:
+    print("average =", (m+n)/2)
 
-elif day==6:
-    print("Friday")
-
-elif day==7:
-    print("Saturday")
+elif h==5:
+    print("mulitply=",m*n)
 
 else:
-    print("Wrong day")
+    print("all", m+n,m-n,m*n,m/n,(m+n)/2)
